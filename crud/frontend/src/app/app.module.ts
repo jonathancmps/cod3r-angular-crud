@@ -1,3 +1,4 @@
+import { RedDirective } from './directives/red.directive';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -23,6 +24,7 @@ import { AppRoutingModule } from './app-rouing.module';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
+    RedDirective
   ],
   imports: [
     BrowserModule,
