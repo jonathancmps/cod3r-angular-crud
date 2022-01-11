@@ -2,12 +2,9 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-product-create',
-  template: `
-    <p>
-      product-create works!
-    </p>
-  `,
-  styles: [
+  templateUrl: 'product.create.html',
+  styleUrls: [
+    'product.create.css'
   ]
 })
 export class ProductCreateComponent implements OnInit {
