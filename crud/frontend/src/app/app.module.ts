@@ -21,6 +21,10 @@ import { RedDirective } from './directives/red.directive';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
+import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 
@@ -36,7 +40,8 @@ import { ProductReadComponent } from './components/product/product-read/product-
     ProductCrudComponent,
     RedDirective,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductRead2Component
   ],
   imports: [
     BrowserModule,
@@ -51,7 +56,10 @@ import { ProductReadComponent } from './components/product/product-read/product-
     AppRoutingModule,
     MatSnackBarModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
